@@ -8,4 +8,9 @@
     - reset css - normalize css npm
     - set default css
 # Setup router for the web
+    - get routes into a specific file
+    - private route // login to redirect
+    - public route
+# set up cơ chế tải layout
+
 
