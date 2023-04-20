@@ -2,6 +2,10 @@
 # add router
 # add custumize - cra
     - add babel module resolver plugin
+    - install react-app-rewired
+    - flip script in package.json
+    - setup .babelrc
+    - setup config-overrides.js
 # create global styles
     - use css module
 # add sass library
@@ -12,5 +16,10 @@
     - private route // login to redirect
     - public route
 # set up cơ chế tải layout
+    - create default layout
+        - header
+        - sidebar
+        - export default as DefaultLayout //es6 recheck
+    - if a route is not define a layout => automically use default layout
 
 
