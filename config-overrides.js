@@ -1,4 +1,5 @@
-import { useBabelRc } from "customize-cra";
+// import { useBabelRc } from "customize-cra";
+const { useBabelRc } = require("customize-cra");
 const { override } = require("customize-cra");
 const path = require("path");
 
