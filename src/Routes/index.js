@@ -1,4 +1,4 @@
-import {HeaderOnly} from '~/components/Layout'
+import {HeaderOnly} from '~/components/layout'
 import Home from "src/pages/Home"
 import Following from 'src/pages/Following';
 import Contact from 'src/pages/Contact'
