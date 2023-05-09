@@ -23,4 +23,13 @@
     - if a route is not define a layout => automically use default layout
 # use css module, create css for Header
     - install classnames
+        - use css.bind() để viết được tên class có chứa dấu "-" trong JSX thay vì phải dùng camel case
+            - className = post-item
+            - className = postItem
+    - create /assets/images
+        - learn how to export default an object contain svg file
+    - add fontawsome to package json - npm i to install added packet
+        - import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+        - <FontAwesomeIcon icon={faCircleXmark} />
+            - import { faCircleXmark } from "@fortawesome/free-regular-svg-icons"; will be added after use <FontAwesomeIcon ...>
 
